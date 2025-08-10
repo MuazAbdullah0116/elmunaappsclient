@@ -29,7 +29,7 @@ const SplashScreen = () => {
       <div className="animate-fade-in flex flex-col items-center">
         <IslamicLogo size="lg" animated />
         <h1 className="mt-6 text-3xl font-bold text-islamic-dark dark:text-islamic-light">
-          Pengelola Setoran Santri
+          Pengelola Hafalan Santri
         </h1>
         <p className="mt-2 text-muted-foreground">
           Pondok Pesantren Al-Munawwarah
