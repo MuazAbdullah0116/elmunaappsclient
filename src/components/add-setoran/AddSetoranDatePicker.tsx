@@ -23,8 +23,8 @@ const AddSetoranDatePicker: React.FC<AddSetoranDatePickerProps> = ({ tanggal, on
           <Button
             variant={"outline"}
             className={cn(
-              "w-full justify-start text-left font-normal bg-background border-border text-white hover:bg-accent hover:text-accent-foreground",
-              !tanggal && "text-white/50"
+              "w-full justify-start text-left font-normal bg-background border-border text-black hover:bg-accent hover:text-accent-foreground",
+              !tanggal && "text-black/50"
             )}
           >
             <CalendarIcon className="mr-2 h-4 w-4" />

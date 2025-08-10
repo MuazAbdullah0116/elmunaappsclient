@@ -22,7 +22,7 @@ const AddSetoranExaminerInput: React.FC<AddSetoranExaminerInputProps> = ({
       placeholder="Masukkan nama penguji"
       value={diujiOleh}
       onChange={(e) => onDiujiOlehChange(e.target.value)}
-      className="w-full bg-background border-border text-white placeholder:text-white/50"
+      className="w-full bg-background border-border text-black placeholder:text-white/50"
     />
   </div>
 );

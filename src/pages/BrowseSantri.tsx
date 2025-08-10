@@ -323,7 +323,7 @@ const BrowseSantri = () => {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Rata-rata Nilai:</span>
-                      <span className="font-medium">{getAverageScore(setoranHistory)}/100</span>
+                      <span className="font-medium">{getAverageScore(setoranHistory)}/10</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Setoran Terakhir:</span>

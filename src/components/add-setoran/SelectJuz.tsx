@@ -13,7 +13,7 @@ const SelectJuz: React.FC<SelectJuzProps> = ({ value, onChange }) => (
       Juz *
     </Label>
     <Select value={value} onValueChange={onChange}>
-      <SelectTrigger className="bg-background border border-emerald-600 text-white hover:border-emerald-400">
+      <SelectTrigger className="bg-background border border-emerald-600 text-black hover:border-emerald-400">
         <SelectValue placeholder="Pilih juz" />
       </SelectTrigger>
       <SelectContent className="bg-gray-900 border-emerald-700 text-white">
